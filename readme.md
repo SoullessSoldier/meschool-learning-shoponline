@@ -1,3 +1,3 @@
 MethEdSchool - учебный проект ShopOnline
 
-link -  
+link -  https://soullesssoldier.github.io/meschool-learning-shoponline/

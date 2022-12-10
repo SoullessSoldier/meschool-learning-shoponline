@@ -1,0 +1,12 @@
+@import "../fonts.css";
+@import "../default.css";
+@import "colors.css";
+@import "header.css";
+@import "banner.css";
+@import "promo.css";
+
+body {
+  font-family: Lato, sans-serif;
+  /*font-weight: 700;
+  line-height: 130%;*/
+}

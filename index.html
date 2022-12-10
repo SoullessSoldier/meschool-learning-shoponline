@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopOnline - учебный проект</title>
+    <link rel="stylesheet" href="assets/style/index/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a class="header__logo-link" href="#">
+            <img
+              class="header__logo-link-image"
+              src="assets/images/index/logo.svg"
+              alt="Логотип компании ShopOnline"
+            />
+          </a>
+          <button class="button header__menu-btn" type="button">
+            <svg
+              class="header__menu-btn-img"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g>
+                <path
+                  d="M3 18H9V16H3V18ZM3 6V8H21V6H3ZM3 13H15V11H3V13Z"
+                  fill="currentColor"
+                />
+              </g>
+            </svg>
+            Меню
+          </button>
+          <form class="header__search-form">
+            <input
+              class="header__search-form-input"
+              type="text"
+              name="search"
+              placeholder="Я ищу..."
+            />
+            <button class="button header__search-form-btn" type="submit">
+              <img
+                class="button header__search-form-btn-img"
+                src="assets/images/index/icon_search.svg"
+                alt="Иконка поиска товара"
+              />
+            </button>
+          </form>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">
+                  <img
+                    class="header__nav-item-img"
+                    src="assets/images/index/icon_person.svg"
+                    alt="Иконка профиля"
+                    title="Профиль"
+                  />
+                  <p class="header__nav-item-title">Профиль</p>
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">
+                  <img
+                    class="header__nav-item-img"
+                    src="assets/images/index/icon_shopping_cart.svg"
+                    alt="Иконка корзины"
+                    title="Корзина"
+                  />
+                  <p class="header__nav-item-title">Корзина</p>
+                  <div
+                    class="header__nav-item-cart-counter"
+                    data-count="2"
+                  ></div>
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">
+                  <img
+                    class="header__nav-item-img"
+                    src="assets/images/index/icon_favorite.svg"
+                    alt="Иконка избранного"
+                    title="Избранное"
+                  />
+                  <p class="header__nav-item-title">Избранное</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="container">
+        <div class="banner-wrapper">
+          <h1 class="visually-hidden">Баннер промо-акции</h1>
+          <p class="banner__title">-50% на все ноутбуки</p>
+          <div class="banner__countdown">
+            <p class="banner__countdown-title">До конца акции:</p>
+            <p class="banner__countdown-text">
+              <span class="banner__digit promo__countdown-days-number">3</span>
+              <span class="banner__digit promo__countdown-days-text">дня</span>
+              <span class="banner__digit promo__countdown-hours-number">8</span>
+              <span class="banner__digit promo__countdown-hours-text"
+                >часов</span
+              >
+              <span class="banner__digit promo__countdown-minutes-number"
+                >43</span
+              >
+              <span class="banner__digit promo__countdown-minutes-text"
+                >минуты</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="promo">
+      <div class="container">
+        <h2 class="visually-hidden">Список акций онлайн-магазина</h2>
+        <ul class="promo__list">
+          <li class="promo__list-item">
+            <p class="promo__list-item-text promo__list-item-text-title">
+              Книга - &nbsp;
+            </p>
+            <p class="promo__list-item-text promo__list-item-text-subtitle">
+              лучший подарок
+            </p>
+          </li>
+          <li class="promo__list-item">
+            <p class="promo__list-item-text promo__list-item-text-title">
+              Время скидок!
+            </p>
+            <div
+              class="promo__list-item-discount-block promo__list-item-discount-block_bottom-right"
+            >
+              -25%
+            </div>
+          </li>
+          <li class="promo__list-item">
+            <div
+              class="promo__list-item-special promo__list-item-special_dark-bg"
+            >
+              <p class="promo__list-item-text promo__list-item-text-title">
+                Вторая пара кроссовок
+              </p>
+              <p class="promo__list-item-text promo__list-item-text-subtitle">
+                в подарок!
+              </p>
+            </div>
+          </li>
+          <li class="promo__list-item">
+            <p class="promo__list-item-text promo__list-item-text-title">
+              Идеи новогодних подарков
+            </p>
+          </li>
+          <li class="promo__list-item">
+            <div
+              class="promo__list-item-discount-block promo__list-item-discount-block_top-left"
+            >
+              -40%
+            </div>
+          </li>
+          <li class="promo__list-item">
+            <p class="promo__list-item-text promo__list-item-text-title">
+              Выгодно в декабре!
+            </p>
+            <div
+              class="promo__list-item-discount-block promo__list-item-discount-block_bottom-right"
+            >
+              -15%
+            </div>
+          </li>
+          <li class="promo__list-item">
+            <div
+              class="promo__list-item-special promo__list-item-special_light-bg"
+            >
+              <p class="promo__list-item-text promo__list-item-text-title">
+                Новогодние украшения
+              </p>
+            </div>
+          </li>
+          <li class="promo__list-item">
+            <p class="promo__list-item-text promo__list-item-text-title">
+              На бытовую химию
+            </p>
+            <div
+              class="promo__list-item-discount-block promo__list-item-discount-block_top-left"
+            >
+              -25%
+            </div>
+          </li>
+          <li class="promo__list-item"></li>
+          <li class="promo__list-item">
+            <div
+              class="promo__list-item-discount-block promo__list-item-discount-block_bottom-right"
+            >
+              -55%
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

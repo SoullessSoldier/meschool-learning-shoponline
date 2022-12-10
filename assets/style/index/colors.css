@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #3670c7;
+  --tertiary-color: #2d2d2d;
+  --quaternary-color: #8f8f8f;
+  --form-bg-color: #efefef;
+  --discount-block-bg-color: #ffbd13;
+  --promo-block-special-bg-dark: #38c0eb;
+  --promo-block-special-bg-light: #ffffff;
+  --promo-block-special-bg-light-text-color: #f91155;
+}

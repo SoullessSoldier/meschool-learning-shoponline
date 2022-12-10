@@ -1,0 +1,150 @@
+.banner {
+  padding: 47px 0 30px;
+}
+.banner-wrapper {
+  padding: 152px 112px 40px 112px;
+  height: 480px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../../images/index/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.banner__title {
+  margin-bottom: 97px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 130%;
+  color: var(--primary-color);
+}
+
+.banner__countdown {
+  margin: 0 auto;
+  max-width: 4850px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.banner__countdown-title {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.banner__digit:nth-child(even) {
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+}
+
+.banner__digit:nth-child(even):last-child {
+  margin-right: 0;
+}
+
+.banner__digit:nth-child(odd) {
+  margin-right: 5px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+}
+
+.banner__digit:last-child {
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    padding: 29px 0 25px;
+  }
+  .banner-wrapper {
+    padding: 83px 76px 36px 80px;
+    height: 314px;
+    border-radius: 16px;
+  }
+  .banner__title {
+    margin-bottom: 63px;
+    font-size: 40px;
+  }
+  .banner__digit:nth-child(even) {
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .banner__digit:nth-child(odd) {
+    font-size: 40px;
+  }
+  .banner__countdown-title {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    padding-bottom: 20px;
+  }
+
+  .banner-wrapper {
+    padding: 66px 80px 30px;
+    height: 280px;
+  }
+
+  .banner__title {
+    margin-bottom: 82px;
+    font-size: 30px;
+  }
+
+  .banner__countdown-title {
+    margin-bottom: 14px;
+    font-size: 12px;
+  }
+  .banner__digit:nth-child(even) {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .banner__digit:nth-child(odd) {
+    margin-right: 2px;
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .banner-wrapper {
+    padding: 53px 29px 30px;
+    height: 341px;
+    border-radius: 8px;
+  }
+
+  .banner__title {
+    margin-bottom: 187px;
+    font-size: 22px;
+  }
+
+  .banner__countdown-title {
+    margin-bottom: 7px;
+    font-size: 8px;
+  }
+  .banner__digit:nth-child(even) {
+    margin-right: 6px;
+    font-size: 12px;
+    vertical-align: text-bottom;
+  }
+
+  .banner__digit:nth-child(odd) {
+    margin-right: 2px;
+    font-size: 20px;
+  }
+}

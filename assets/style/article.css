@@ -1,0 +1,112 @@
+@import "./fonts.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 130%;
+  margin: 0 0 50px 0;
+}
+
+h2,
+h3 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 130%;
+}
+
+.article {
+  padding: 75px 65px;
+}
+
+.article__paragraph {
+  margin: 0 0 33px 0;
+}
+
+.article__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.image {
+  margin: 0 0 50px;
+}
+
+.article__paragraph + .image {
+  margin: 17px 0 50px;
+}
+
+.section {
+  padding: 0 0 50px 0;
+}
+
+.section:last-child {
+  padding-bottom: 0;
+}
+
+/*.section_first {
+  padding: 50px 0;
+}*/
+
+.subsection {
+  padding: 0 0 33px 0;
+}
+
+.subsection:last-child {
+  padding-bottom: 0;
+}
+
+.subsection .article__paragraph {
+  margin: 0;
+  padding: 0;
+}
+
+.subsection__title {
+  font-weight: 400;
+}
+
+.nav {
+  margin: 17px 0 50px;
+  padding: 0;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.nav__item {
+  margin: 0 0 2px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.nav__item:last-child {
+  padding-bottom: 0;
+}
+
+.nav__item::marker {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.nav__link {
+  font-size: 16px;
+  line-height: 150%;
+  color: #525252;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1095px;
+}
