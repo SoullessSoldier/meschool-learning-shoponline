@@ -2,7 +2,7 @@
   padding: 27px 0 45px;
 }
 .header__wrapper {
-  /* padding: 4px 0; */
+  width: 100%;
   display: grid;
   grid-template-columns: 2fr 3fr 7fr 4fr;
   gap: 29px;
@@ -15,13 +15,10 @@
 }
 
 .header__menu-btn {
-  /* margin: 0 0 0 11px; */
-  /* padding: 0; */
   width: 151px;
   height: 55px;
   align-self: center;
   justify-self: center;
-  /* padding: 6px 30px; */
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;
@@ -43,7 +40,7 @@
 .header__search-form {
   margin-right: 17px;
   position: relative;
-  width: 757px;
+  width: 100%;
   height: 54px;
 }
 
@@ -80,11 +77,10 @@
 }
 
 .header__nav-list {
-  display: grid;
-  grid-template-columns: repeat(3, 82px);
+  display: flex;
   list-style: none;
-  place-content: center end;
-  gap: 58px;
+  justify-content: flex-end;
+  gap: 70px;
 }
 
 .header__nav-item {
@@ -118,7 +114,7 @@
 .header__nav-item-cart-counter[data-count] {
   position: absolute;
   top: -2px;
-  right: 20px;
+  right: 8px;
   width: 18px;
   height: 18px;
   display: flex;
@@ -142,7 +138,6 @@
   .header__wrapper {
     grid-template-columns: 3fr 9fr;
     gap: 33px;
-    /* place-content: center space-between; */
   }
   .header__logo-link {
     padding-top: 16px;
@@ -158,14 +153,12 @@
     grid-row: 2 / 3;
     justify-self: end;
     margin: 0;
-    width: 700px;
+    /* width: 700px; */
   }
   .header__nav-list {
-    gap: 28px;
+    justify-content: flex-end;
+    gap: 40px;
   }
-  /* .header__nav-link {
-    gap: 7px;
-  } */
 }
 
 @media (max-width: 768px) {
@@ -201,7 +194,6 @@
   }
 
   .header__search-form {
-    width: 540px;
     height: 42px;
   }
 
@@ -220,8 +212,7 @@
   }
 
   .header__nav-list {
-    grid-template-columns: repeat(3, 73px);
-    gap: 9px;
+    gap: 30px;
   }
 
   .header__nav-link {
@@ -236,7 +227,7 @@
   .header__nav-item-cart-counter[data-count] {
     position: absolute;
     top: 0;
-    right: 21px;
+    right: 8px;
     width: 14px;
     height: 14px;
   }
@@ -295,14 +286,9 @@
     width: 19px;
     height: 19px;
   }
-
-  .header__nav {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-  }
   .header__nav-list {
-    grid-template-columns: repeat(3, 30px);
-    gap: 20px;
+    grid-row: 2 / 3;
+    gap: 25px;
   }
   .header__nav-item-title {
     display: none;

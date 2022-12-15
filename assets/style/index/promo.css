@@ -5,7 +5,7 @@
 .promo__list {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(6, 245px);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4, 228px);
   gap: 60px;
   list-style: none;
@@ -253,7 +253,7 @@
 
 @media (max-width: 1024px) {
   .promo__list {
-    grid-template-columns: repeat(4, 217px);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 200px);
     gap: 30px 22px;
   }
@@ -366,7 +366,7 @@
     padding: 20px 0 65px;
   }
   .promo__list {
-    grid-template-columns: 140px 140px 180px 180px;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 130px);
     gap: 20px 20px;
   }
@@ -480,7 +480,7 @@
     padding: 10px 0 43px;
   }
   .promo__list {
-    grid-template-columns: repeat(2, 130px);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 120px 120px 205px 118px 116px 94px 94px 120px;
   }
   .promo__list-item {
