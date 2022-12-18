@@ -131,7 +131,7 @@
   content: attr(data-count) " ";
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1400px) {
   .header {
     padding: 34px 0 30px;
   }
@@ -233,7 +233,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .header {
     padding-top: 15px;
     padding-bottom: 20px;
